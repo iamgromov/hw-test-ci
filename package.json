@@ -1,0 +1,33 @@
+{
+  "name": "jest-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamgromov/jest-test.git"
+  },
+  "author": "thnd3r",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iamgromov/jest-test/issues"
+  },
+  "homepage": "https://github.com/iamgromov/jest-test#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.22.6",
+    "@babel/core": "^7.22.6",
+    "@babel/preset-env": "^7.22.6",
+    "babel-jest": "^29.6.0",
+    "eslint": "^8.44.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "jest": "^29.6.0"
+  },
+  "dependencies": {
+    "core-js": "^3.31.0"
+  }
+}
